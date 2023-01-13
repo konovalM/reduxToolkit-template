@@ -1,0 +1,18 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "project": ["tsconfig.json"] ,
+    "sourceType": "module"
+  },
+  "extends": [
+    "react-app",
+    "prettier"
+  ],
+  "plugins": [
+//    "@typescript-eslint",
+    "react"
+  ],
+  "rules": {
+    "quotes": ["error", "double"]
+  }
+}
